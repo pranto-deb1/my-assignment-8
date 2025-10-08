@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/abf72b3c-3a16-427d-5fe8-238e9f11cf00/public",
+    "title": "SocialHub: Connect & Share",
+    "companyName": "NextGen Tech",
+    "id": 1,
+    "description": "SocialHub is the ultimate spot to hang out with friends, share fun moments, and keep up with trending stories worldwide. Post photos, videos, or quick updates, join communities that match your interests, and discover what everyone is talking about. Whether you want to chat casually, scroll for entertainment, or connect with like-minded people, SocialHub makes it super easy to stay social, explore new trends, and enjoy a lively digital hangout every single day.",
+    "size": 85,
+    "reviews": "126K",
+    "ratingAvg": 4.3,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "image": "https://super-monitoring.com/blog/wp-content/uploads/2020/01/photofy-app.png",
+    "title": "Photofy: AI Photo Editor",
+    "companyName": "PixelVision Labs",
+    "id": 2,
+    "description": "Photofy is a fun, easy-to-use photo editor designed to make your pictures look amazing. Use AI filters, remove backgrounds instantly, and explore tons of creative effects. Perfect for sharing on social media or just messing around with fun edits, it lets you create eye-catching images in seconds. Whether you’re a beginner or a creative pro, Photofy makes editing simple, entertaining, and super satisfying, so you can turn ordinary shots into stunning visuals effortlessly every single day.",
+    "size": 112,
+    "reviews": "85K",
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHPs6w0hCwKIgRUVOXF_C_fEla3V3bmO7ZZQ&s",
+    "title": "SpeedRace X: Ultimate Racing",
+    "companyName": "DriftZone Studios",
+    "id": 3,
+    "description": "SpeedRace X brings thrilling, high-speed racing to your fingertips. Choose your car, upgrade it, and hit the track in real-time multiplayer races against players worldwide. Stunning graphics, smooth controls, and adrenaline-pumping tracks make every race an exciting challenge. Compete casually or aim for the top leaderboard, perform daring maneuvers, and feel the rush of the finish line. Perfect for racing fans who love fast action, epic car battles, and endless hours of high-octane entertainment every day.",
+    "size": 780,
+    "reviews": "192K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 95000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/85/ca/6885ca4d-69a2-97ad-2ee8-f41644f45c19/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/1200x630wa.png",
+    "title": "FitTrack Pro: Health & Fitness",
+    "companyName": "Wellbeing Corp",
+    "id": 4,
+    "description": "FitTrack Pro makes it super simple to keep track of your workouts, calories, steps, and sleep cycles. Set goals, follow personalized routines, and see your progress grow every day. Whether you’re just starting or are already fitness-savvy, the app keeps you motivated with fun challenges, reminders, and insightful stats. Build healthy habits at your own pace, celebrate wins, and enjoy a fitness journey that’s easy, rewarding, and casual without feeling like a chore.",
+    "size": 66,
+    "reviews": "65K",
+    "ratingAvg": 4.5,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 19000 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWqJJ5c0_Esld6sl-Fc4ROEoVZYslzo7DIQ&s",
+    "title": "Learnify: Skills & Courses",
+    "companyName": "EduVerse Ltd",
+    "id": 5,
+    "description": "Learnify is a casual, interactive learning platform that makes acquiring new skills fun and fast. Dive into courses, quizzes, and practical lessons covering coding, arts, hobbies, and more. Track your progress, challenge friends, and celebrate milestones. Whether you’re learning for work, personal growth, or pure curiosity, Learnify turns skill-building into an engaging experience. The app motivates you to explore, practice, and improve daily, making learning feel exciting, flexible, and totally stress-free every single day.",
+    "size": 155,
+    "reviews": "98K",
+    "ratingAvg": 4.4,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  },
+  {
+    "image": "https://c.saavncdn.com/220/Sonic-s-Beats-English-2014-20190628213207-500x500.jpg",
+    "title": "SoundWave: Music & Podcasts",
+    "companyName": "Sonic Beats",
+    "id": 6,
+    "description": "SoundWave is your go-to app for music and podcasts, delivering premium, ad-free sound for all your moods. Explore trending tracks, discover new artists, create playlists, and follow your favorite podcasts effortlessly. Whether you’re working, relaxing, or partying, SoundWave offers seamless streaming and amazing audio quality. Perfect for casual listening or serious music exploration, it keeps your ears entertained and your playlists fresh. Enjoy discovering, sharing, and jamming out every single day without interruptions or hassle.",
+    "size": 94,
+    "reviews": "275K",
+    "ratingAvg": 4.8,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 157000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7YDrgzTZoRPw0YsTY9xiPiTJNeC2UkhQxAw&s",
+    "title": "TravelGo: Book & Explore",
+    "companyName": "SkyFly Technologies",
+    "id": 7,
+    "description": "TravelGo makes planning trips easy, fun, and stress-free. Book flights, hotels, and tours with a few taps, discover popular destinations, hidden gems, and local experiences. Compare prices, find the best deals, and make every journey affordable. Perfect for spontaneous trips or well-planned vacations, TravelGo keeps everything organized. Explore the world at your own pace, enjoy every adventure, and create lasting memories with friends, family, or solo. Travel smarter, smoother, and more enjoyable every single day.",
+    "size": 121,
+    "reviews": "47K",
+    "ratingAvg": 4.2,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nAfldPL4IXSqEd2T7X6Yz8wNSuLXX5qwaA&s",
+    "title": "ShopVerse: Shop & Save",
+    "companyName": "Infinity Retail",
+    "id": 8,
+    "description": "ShopVerse is your one-stop shop for everything from fashion to electronics. Browse the latest trends, compare prices, and discover amazing deals. Whether you’re looking for everyday essentials, gadgets, or stylish outfits, ShopVerse makes shopping fun, easy, and affordable. Create wishlists, track your orders, and enjoy a smooth buying experience. Perfect for casual shoppers or bargain hunters, ShopVerse keeps you updated on discounts, new arrivals, and exclusive offers, making every purchase feel satisfying and smart.",
+    "size": 108,
+    "reviews": "210K",
+    "ratingAvg": 4.1,
+    "downloads": "9.5M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 28000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 67000 }
+    ]
+  },
+  {
+    "image": "https://ps.w.org/noted/assets/icon-256x256.png?rev=3195171",
+    "title": "Noted: Notes & Markdown",
+    "companyName": "Productify Apps",
+    "id": 9,
+    "description": "Noted is a sleek, elegant note-taking app that lets you jot down ideas quickly. Use cloud sync to access notes anywhere, and markdown support to format them perfectly. Whether you’re taking quick reminders, planning a project, or writing creatively, Noted keeps everything organized. Perfect for students, professionals, or casual note-takers, it makes productivity effortless. With a simple, intuitive interface, Noted helps you stay on top of your thoughts, projects, and ideas anytime and anywhere.",
+    "size": 43,
+    "reviews": "32K",
+    "ratingAvg": 4.6,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 16000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgARgiQNODImPxZ0GIW0IwAD-nlKAUTcsonw&s",
+    "title": "GameStack: Play & Stream",
+    "companyName": "PlayTime Studios",
+    "id": 10,
+    "description": "GameStack is your go-to app for playing and streaming indie games. Discover new titles, challenge friends, and share gameplay moments with the community. PlayStack offers smooth controls and streaming features that make gaming on the go fun and engaging. Perfect for casual gaming, competitive challenges, or exploring creative indie worlds, GameStack keeps your gaming experience fresh, entertaining, and connected. Stay updated with new releases and enjoy endless hours of fun, anytime, anywhere.",
+    "size": 230,
+    "reviews": "67K",
+    "ratingAvg": 4.0,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 16000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSem0pWGacQarMVwQI63mqt4Bvfy3iGc7pg-A&s",
+    "title": "NewsByte: Latest News",
+    "companyName": "Global Media Network",
+    "id": 11,
+    "description": "NewsByte keeps you updated with real-time breaking news from trusted sources around the world. Follow politics, technology, entertainment, sports, and lifestyle updates in one place. Customize your feed, get push notifications for important events, and never miss a headline. Perfect for casual readers or news enthusiasts, NewsByte makes staying informed easy, fast, and engaging. Browse articles, watch videos, and share news effortlessly to stay connected with what’s happening globally and locally every day.",
+    "size": 57,
+    "reviews": "43K",
+    "ratingAvg": 4.2,
+    "downloads": "1.7M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwIidAw22Pa5sjjOClezK7htn0BnBJ-VLeZw&s",
+    "title": "MindZone: Meditate & Relax",
+    "companyName": "FocusLab",
+    "id": 12,
+    "description": "MindZone offers guided meditation sessions and calming sounds to help you relax, reduce stress, and focus better. Explore meditation exercises for sleep, concentration, or energy, and track your progress over time. With soothing music and daily mindfulness reminders, MindZone turns meditation into an easy, casual habit. Perfect for beginners and experienced practitioners alike, it helps you unwind, feel centered, and enjoy mental clarity, making relaxation and mindfulness a simple, enjoyable, and rewarding daily practice.",
+    "size": 88,
+    "reviews": "52K",
+    "ratingAvg": 4.7,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbs3NaO1mMVcFALsamBYiR_AlPSqnDqldrbA&s",
+    "title": "FoodMate: Order & Enjoy",
+    "companyName": "Delish Apps",
+    "id": 13,
+    "description": "FoodMate makes ordering your favorite meals easy, fast, and fun. Browse menus from local restaurants, customize your order, and track delivery in real-time. Perfect for casual meals, weekend treats, or trying new cuisines, FoodMate keeps everything simple and stress-free. Save favorites, get special deals, and enjoy delicious food at your doorstep without any hassle. The app combines convenience, variety, and speed, making every meal a satisfying and enjoyable experience, whether alone or with friends and family.",
+    "size": 95,
+    "reviews": "154K",
+    "ratingAvg": 4.3,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 13000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 67000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/8YkXmhweu_LvBzit8FZxSafrXWMg46GqUdopBLkpu-VOD_i1IpN8f5zmlmrGLMI8lhk",
+    "title": "WeatherWise: Forecast & Alerts",
+    "companyName": "SkyPredict Labs",
+    "id": 14,
+    "description": "WeatherWise provides accurate weather forecasts, severe alerts, and live radar maps to keep you prepared. Track conditions for your city, get hourly and daily updates, and plan activities accordingly. Perfect for casual users, commuters, and travelers, it delivers timely, easy-to-understand weather information. Customize alerts for storms, rain, or temperature changes, and share forecasts with friends and family. Stay informed, safe, and ready for any weather, making everyday life smoother, smarter, and worry-free with WeatherWise.",
+    "size": 59,
+    "reviews": "64K",
+    "ratingAvg": 4.4,
+    "downloads": "2.6M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 28000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ex_YGuf9kzxiT0gzAXiHanzv_k8JmaqlQTxAsR6XmICucW2Co1DrHoG9_0v4AzV0gdY=w240-h480-rw",
+    "title": "Tasky: Organize & Achieve",
+    "companyName": "Boostify Apps",
+    "id": 15,
+    "description": "Tasky helps you organize your tasks, set reminders, and boost productivity every day. Plan your to-do lists, track progress, and never miss deadlines. Perfect for students, professionals, and anyone juggling multiple responsibilities, Tasky keeps life simple and manageable. With friendly reminders, motivational features, and a smooth interface, staying on top of tasks becomes fun and casual. Achieve your goals, keep priorities in check, and enjoy the satisfaction of completing tasks efficiently and stress-free, day after day.",
+    "size": 41,
+    "reviews": "28.5K",
+    "ratingAvg": 4.5,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 15300 }
+    ]
+  }
+]
