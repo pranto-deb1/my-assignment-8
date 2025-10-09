@@ -13,7 +13,7 @@ const HomeApps = ({allApps}) => {
         setNewAppData(appData.slice(0, 8)); 
     }, [appData]);
 
-    console.log(newAppData);
+    
 
     return (
         <div className='mt-[80px]'>
@@ -22,7 +22,7 @@ const HomeApps = ({allApps}) => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] max-w-[90%] mx-auto mt-[40px]">
                 {
-                    newAppData.map(app => <Link to={`/AppDetail/${app.id}`}><div key={app.id} className='w-[100%] card rounded-[4px] p-[16px] h-[435px] bg-white'>
+                    newAppData.map(app => <Link key={app.id} to={`/AppDetail/${app.id}`}><div key={app.id} className='w-[100%] card rounded-[4px] p-[16px] h-[435px] bg-white'>
                         <img src={app.image} className='w-[100%] h-[75%] object-cover bg-[#D9D9D9] rounded-[8px] shadow-sm'/>
                         <h2 className="text-[20px] font-medium mt-[16px]">{app.title}</h2>
                         <div className="flex justify-between mt-4">

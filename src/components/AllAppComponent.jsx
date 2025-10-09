@@ -18,7 +18,7 @@ const AllAppComponent = ({ searchValue, allApps }) => {
             {appsToShow.length > 0 ? (
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px]'>
                     {appsToShow.map((app) => (
-                        <Link to={`/AppDetail/${app.id}`}><div key={app.id} className='w-full card rounded-[4px] p-[16px] bg-white shadow-sm'>
+                        <Link key={app.id} to={`/AppDetail/${app.id}`}><div className='w-full card rounded-[4px] p-[16px] bg-white shadow-sm'>
                             <img 
                                 src={app.image} 
                                 alt={app.title} 

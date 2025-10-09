@@ -5,7 +5,7 @@ import { Outlet } from 'react-router';
 
 const Default = () => {
     
-    const [allApps, setAllApps] = useState([])
+    const [allApps, setAllApps] = useState(null);
 
     useEffect(() => {
         fetch('/Apps.json')
@@ -15,7 +15,9 @@ const Default = () => {
         })
     },[])
 
-    // console.log(allApps)
+    // if (!allApps) {
+    //     return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
+    // }   
 
     return (
         <div className='max-w-[1500px] mx-auto bg-[#d5d5d568]'>
