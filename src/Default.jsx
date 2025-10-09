@@ -19,10 +19,15 @@ const Default = () => {
     //     return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
     // }   
 
+    const [installedApps, setInstalledApps] = useState([])
+    
+    console.log(installedApps)
+
     return (
         <div className='max-w-[1500px] mx-auto bg-[#d5d5d568]'>
             <Nav></Nav>
-            <Outlet context={{allApps}}></Outlet>
+            <Outlet context={{ allApps: allApps, setInstalledApps: setInstalledApps, installedApps: installedApps}} />
+
             
         </div>
     );

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useOutletContext, useParams } from 'react-router';
 import AppDetailErrorPNG from '../assets/App-Error.png'
 import StarIcon from '../assets/icon-ratings.png'
@@ -7,8 +7,11 @@ import LikeIcon from '../assets/icon-review.png'
 import ReactECharts from 'echarts-for-react';
 
 const AppDetail = () => {
-    const { allApps } = useOutletContext();
+
+    const { allApps, setInstalledApps } = useOutletContext();
     const { id } = useParams();
+    const [btnStateChange, setbtnStateChange] = useState(false)
+
 
     if (!allApps || allApps.length === 0) {
       return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
@@ -62,7 +65,7 @@ const option = {
 
 
 
-
+   
     return (
         <div className="max-w-[90%] mx-auto mt-[80px]">
             <div className="flex gap-[40px] justify-start">
@@ -92,13 +95,23 @@ const option = {
                         </div>
                     </div>
 
-                    <button className='w-[239px] h-[48px] font-semibold text-[20px] text-white bg-[#00D390] rounded-[4px] mt-[30px]'>Install Now ({app.size} MB)</button>
+                    <button onClick={() => {
+                          setInstalledApps(prev => {
+                            if (prev.some(a => a.id === app.id)) return prev;
+                            return [...prev, app];
+                          })
+                          setbtnStateChange(true);
+                        }} className='w-[239px] h-[48px] font-semibold text-[20px] text-white bg-[#00D390] rounded-[4px] mt-[30px]'>{btnStateChange ? "Installed" : `Install Now (${app.size} MB)`}</button>
                 </div>
             </div>
 
             <ReactECharts option={option} />
 
-            
+            <div className="w-full border-b border-[#cccccc] border-[1.2px] mt-[40px]"></div>
+            <div className="mt-[40px]">
+              <p className="font-semibold text-[24px]">Description</p>
+              <p className="mt-6 text-[20px] text-[#627382]">{app.description}</p>
+            </div>
         </div>
     );
 };
