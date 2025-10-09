@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import Nav from './components/Nav';
 import { Outlet, useLocation } from 'react-router';
-
+import logo from './assets/logo.png'
 const getInitialInstalledApps = () => {
   const storedApps = localStorage.getItem("installedApps");
   return storedApps ? JSON.parse(storedApps) : [];
@@ -44,19 +44,19 @@ const Default = () => {
       {isPageLoading ? (
         
         <div className='flex justify-center items-center h-[calc(100vh-60px)]'>
-          <p className="text-6xl text-gray-500 font-bold animate-pulse">
-            Loading...
+          <p className="text-6xl text-gray-500 font-bold animate-pulse flex items-center">
+            L  <span><img src={logo} className='w-[50px] h-[50px] mt-[30px] logo-img ml-[10px]' /></span>  ading...
           </p>
         </div>
       ) : (
         
         <Suspense
           fallback={
-            <div className='flex justify-center items-center h-[calc(100vh-60px)]'>
-              <p className="text-6xl text-gray-500 font-bold animate-pulse">
-                Loading...
-              </p>
-            </div>
+          <div className='flex justify-center items-center h-[calc(100vh-60px)]'>
+          <p className="text-6xl text-gray-500 font-bold animate-pulse flex items-center">
+            L  <span><img src={logo} className='w-[50px] h-[50px] mt-[30px] logo-img ml-[10px]' /></span>  ading...
+          </p>
+        </div>
           }
         >
           <Outlet key={location.key} context={{allApps: allApps, setInstalledApps: setInstalledApps, installedApps: installedApps,}}/>

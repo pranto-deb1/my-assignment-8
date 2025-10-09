@@ -24,3 +24,13 @@ button{
   box-shadow: 1px 1px 50px rgba(93, 153, 196, 0.418);
   cursor: pointer;
 }
+
+.logo-img{
+  animation: spin 5s linear;
+}
+
+@keyframes spin {
+  100%{
+    transform: rotate(720px);
+  }
+}

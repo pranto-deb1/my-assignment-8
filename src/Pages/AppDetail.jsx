@@ -4,13 +4,21 @@ import AppDetailErrorPNG from '../assets/App-Error.png';
 import StarIcon from '../assets/icon-ratings.png';
 import DownloardIcon from '../assets/icon-downloads.png';
 import LikeIcon from '../assets/icon-review.png';
-import ReactECharts from 'echarts-for-react';
 import { ToastContainer, toast } from 'react-toastify';
+import {
+    BarChart,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    ResponsiveContainer,
+    LabelList,
+} from 'recharts';
 
 const AppDetail = () => {
     const { allApps, setInstalledApps, installedApps } = useOutletContext();
     const { id } = useParams();
-    
 
     if (!allApps || allApps.length === 0) {
         return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
@@ -33,21 +41,11 @@ const AppDetail = () => {
         );
     }
 
-    const data = app.ratings.map(r => r.count);
-    const labels = app.ratings.map(r => r.name);
-
-    const option = {
-        xAxis: { max: 'dataMax' },
-        yAxis: { type: 'category', data: labels, inverse: true },
-        series: [
-            {
-                type: 'bar',
-                data: data,
-                label: { show: true, position: 'right' },
-                itemStyle: { color: '#FF8811' }
-            }
-        ]
-    };
+    
+    const chartData = app.ratings.map(r => ({
+        name: r.name,
+        value: r.count,
+    }));
 
     return (
         <div className="max-w-[90%] mx-auto mt-[80px]">
@@ -105,7 +103,24 @@ const AppDetail = () => {
                 </div>
             </div>
 
-            <ReactECharts option={option} />
+            
+            <div className="mt-12 w-full h-[400px]">
+                <ResponsiveContainer width="100%" height="100%">
+                    <BarChart
+                        layout="vertical"
+                        data={chartData}
+                        margin={{ top: 20, right: 30, left: 50, bottom: 20 }}
+                    >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis type="number" />
+                        <YAxis type="category" dataKey="name" />
+                        <Tooltip />
+                        <Bar dataKey="value" fill="#FF8811">
+                            <LabelList dataKey="value" position="right" />
+                        </Bar>
+                    </BarChart>
+                </ResponsiveContainer>
+            </div>
 
             <div className="w-full border-b border-[#cccccc] border-[1.2px] mt-[40px]"></div>
             <div className="mt-[40px]">
