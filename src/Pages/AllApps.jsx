@@ -7,6 +7,10 @@ const AllApps = () => {
     const { allApps } = useOutletContext();
     const [searchValue, setSearchValue] = useState('');
 
+    if (!allApps || allApps.length === 0) {
+      return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
+    }
+
     return (
         <div>
             <h1 className="text-center mt-[80px] font-bold text-[48px]">Our All Applications</h1>

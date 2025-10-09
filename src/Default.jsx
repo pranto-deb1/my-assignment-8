@@ -3,9 +3,17 @@ import Nav from './components/Nav';
 import { Outlet } from 'react-router';
 
 
+const getInitialInstalledApps = () => {
+    const storedApps = localStorage.getItem("installedApps");
+    return storedApps ? JSON.parse(storedApps) : [];
+};
+
 const Default = () => {
     
     const [allApps, setAllApps] = useState(null);
+    
+    const [installedApps, setInstalledApps] = useState(getInitialInstalledApps); 
+
 
     useEffect(() => {
         fetch('/Apps.json')
@@ -14,21 +22,19 @@ const Default = () => {
             setAllApps(data)
         })
     },[])
-
-    // if (!allApps) {
-    //     return <p className="text-center mt-20 text-xl">Loading Apps...</p>;
-    // }   
-
-    const [installedApps, setInstalledApps] = useState([])
     
-    console.log(installedApps)
+
+    useEffect(() => {
+
+        localStorage.setItem("installedApps", JSON.stringify(installedApps));
+    }, [installedApps]); 
+
+
 
     return (
         <div className='max-w-[1500px] mx-auto bg-[#d5d5d568]'>
             <Nav></Nav>
             <Outlet context={{ allApps: allApps, setInstalledApps: setInstalledApps, installedApps: installedApps}} />
-
-            
         </div>
     );
 };

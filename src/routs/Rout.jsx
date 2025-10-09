@@ -6,7 +6,7 @@ import Home from '../Pages/Home';
 import AllApps from '../Pages/AllApps';
 import AppDetail from '../Pages/AppDetail';
 import Detail from '../Pages/Detail';
-import Installation from '../Pages/Installation';
+import MyInstallation from '../Pages/MyInstallation';
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
         {index:true, Component: Home},
         {path:'/all', Component: AllApps},
         {path:'/detail', Component: Detail},
-        {path:'installation', Component: Installation},
+        {path:'My-Installation', Component: MyInstallation},
         {path:'/AppDetail/:id', Component: AppDetail}
     ],
   },
