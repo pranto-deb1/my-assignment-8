@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react';
 import Nav from './components/Nav';
 import { Outlet, useLocation } from 'react-router';
 import logo from './assets/logo.png'
+import Footer from './components/Footer';
 const getInitialInstalledApps = () => {
   const storedApps = localStorage.getItem("installedApps");
   return storedApps ? JSON.parse(storedApps) : [];
@@ -38,7 +39,7 @@ const Default = () => {
   }, [location]);
 
   return (
-    <div className='max-w-[1500px] mx-auto bg-[#d5d5d568] min-h-screen'>
+    <div className=' mx-auto bg-[#d5d5d568] min-h-screen'>
       <Nav />
 
       {isPageLoading ? (
@@ -62,6 +63,8 @@ const Default = () => {
           <Outlet key={location.key} context={{allApps: allApps, setInstalledApps: setInstalledApps, installedApps: installedApps,}}/>
         </Suspense>
       )}
+
+      <Footer />
     </div>
   );
 };

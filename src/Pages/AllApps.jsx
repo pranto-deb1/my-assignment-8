@@ -2,6 +2,7 @@ import React, { Suspense, useState, useEffect } from 'react';
 import { useOutletContext } from 'react-router';
 import { FaSearch } from "react-icons/fa";
 import AllAppComponent from '../components/AllAppComponent';
+import logo from '../assets/logo.png';
 
 const AllApps = () => {
   const { allApps } = useOutletContext();
@@ -41,7 +42,7 @@ const AllApps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
 
-      <div className="flex mt-[46px] justify-between items-center max-w-[90%] mx-auto">
+      <div className="flex mt-[46px] flex-wrap justify-between items-center max-w-[90%] mx-auto">
         <h3 className="font-semibold text-[24px]">({filteredApps.length}) Apps Found</h3>
 
         <div className="relative w-[400px]">
@@ -66,8 +67,10 @@ const AllApps = () => {
       ) : (
         <Suspense
           fallback={
-            <div className="flex justify-center items-center h-[calc(100vh-60px)]">
-              <p className="text-9xl flex text-gray-500 font-bold">Loading....</p>
+            <div className='flex justify-center items-center h-[calc(100vh-60px)]'>
+                      <p className="text-6xl text-gray-500 font-bold animate-pulse flex items-center">
+                        L  <span><img src={logo} className='w-[50px] h-[50px] mt-[30px] logo-img ml-[10px]' /></span>  ading...
+                      </p>
             </div>
           }
         >

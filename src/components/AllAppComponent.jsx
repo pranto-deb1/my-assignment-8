@@ -18,16 +18,11 @@ const AllAppComponent = ({ searchValue, allApps }) => {
             {appsToShow.length > 0 ? (
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px]'>
                     {appsToShow.map((app) => (
-                        <Link key={app.id} to={`/AppDetail/${app.id}`}><div className='w-full card rounded-[4px] p-[16px] bg-white shadow-sm'>
-                            <img 
-                                src={app.image} 
-                                alt={app.title} 
-                                className='w-full h-[200px] md:h-[250px] object-cover bg-[#D9D9D9] rounded-[8px]'
-                            />
+                        <Link key={app.id} to={`/AppDetail/${app.id}`}><div className='w-full card rounded-[4px] p-[16px] lg:p-[10px] bg-white shadow-sm lg:h-[300px] xl:h-[100%]'>
+                            <img src={app.image} alt={app.title} className='w-full h-[200px] md:h-[250px] lg:h-[150px] xl:h-[250px] object-cover bg-[#D9D9D9] rounded-[8px]'/>
                             <h2 className="text-[20px] font-medium mt-[16px]">{app.title}</h2>
                             <div className="flex justify-between mt-4">
-                                <p className="flex text-[#00D390] px-[10px] py-[6px] gap-[8px] rounded-[4px] items-center justify-center bg-[#F1F5E8]">
-                                    <MdDownload /> {app.downloads}
+                                <p className="flex text-[#00D390] px-[10px] py-[6px] gap-[8px] rounded-[4px] items-center justify-center bg-[#F1F5E8]"><MdDownload /> {app.downloads}
                                 </p>
 
                                 <p className="flex text-[#FF8811] px-[10px] py-[6px] gap-[8px] rounded-[4px] items-center justify-center bg-[#FFF0E1]">
@@ -38,7 +33,7 @@ const AllAppComponent = ({ searchValue, allApps }) => {
                     ))}
                 </div>
             ) : (
-                <h2 className="text-center text-[24px] font-semibold mt-[50px]">App Not Found</h2>
+                <h2 className="text-center text-[40px] font-bold mt-[200px] mb-[300px]">App Not Found</h2>
             )}
         </div>
     );
