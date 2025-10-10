@@ -18,7 +18,7 @@ const Nav = () => {
                 <NavLink to="/My-Installation" className='font-medium'>Installation</NavLink>
             </div>
 
-            <a href="https://github.com/Prizmine/my-assignment-8" target='blank'><button className="w-[145px] h-[43px] text-white rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] flex justify-center items-center gap-[10px]"><FaGithub />Contribute</button></a>
+            <a href="https://github.com/Prizmine" target='blank'><button className="w-[145px] h-[43px] text-white rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] flex justify-center items-center gap-[10px]"><FaGithub />Contribute</button></a>
         </div>
         
 

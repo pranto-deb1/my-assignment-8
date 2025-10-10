@@ -1,16 +1,23 @@
-# React + Vite
+#  HERO.IO - Modern App Store Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Description
+**HERO.IO** একটি আধুনিক React ভিত্তিক ওয়েব অ্যাপ্লিকেশন যা একটি App Store এর মতো কাজ করে।  
+এখানে ব্যবহারকারীরা বিভিন্ন অ্যাপ এক্সপ্লোর করতে, সার্চ দিতে, বিস্তারিত দেখতে ও ইনস্টলেশনের তথ্য জানতে পারে।  
+পুরো প্রজেক্টটি তৈরি করা হয়েছে React 19 ও Tailwind CSS 4 ব্যবহার করে।
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Technologies Used
+-  **React 19** – সর্বশেষ React ভার্সন ব্যবহৃত  
+-  **React Router v7** – রাউটিং ও পেজ নেভিগেশন  
+-  **Tailwind CSS 4** – স্টাইলিং ও রেস্পনসিভ ডিজাইন  
+-  **@tailwindcss/vite** – Tailwind এর জন্য Vite ইন্টিগ্রেশন  
+-  **React Icons 5** – সুন্দর ও হালকা আইকন  
+-  **React Toastify 11** – Toast notification  
+-  **Recharts 3** – ডাটা ভিজুয়ালাইজেশনের জন্য  
+-  **Vite** – Ultra-fast build tool
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Project Structure
