@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useOutletContext } from 'react-router';
 import { GoDownload } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
 
 const MyInstallation = () => {
   const { installedApps, setInstalledApps } = useOutletContext(); 
@@ -38,7 +38,7 @@ const MyInstallation = () => {
 
   return (
     <div className="max-w-[90%] mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
-      <Toaster position="top-center" />
+      <ToastContainer position="top-center" />
 
       
       <h1 className="mt-20 text-center font-bold text-[28px] sm:text-[36px] md:text-[48px]">
