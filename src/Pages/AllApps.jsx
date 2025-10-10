@@ -42,7 +42,8 @@ const AllApps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
 
-      <div className="flex mt-[46px] flex-wrap justify-between items-center max-w-[90%] mx-auto">
+      <div className="max-w-[90%] mx-auto">
+        <div className="flex mt-[46px] flex-wrap justify-between items-center max-w-[95%] md:max-w-[90%] lg:max-w-[99%] xl:max-w-[80%]  mx-auto">
         <h3 className="font-semibold text-[24px]">({filteredApps.length}) Apps Found</h3>
 
         <div className="relative w-[400px]">
@@ -59,13 +60,15 @@ const AllApps = () => {
           )}
         </div>
       </div>
+      </div>
 
       {isSearching ? (
         <div className="flex justify-center items-center h-[calc(100vh-200px)]">
           <p className="text-3xl text-gray-500 font-bold animate-pulse">Searching...</p>
         </div>
       ) : (
-        <Suspense
+        <div className="max-w-[95%] md:max-w-[90%] lg:max-w-[99%] xl:max-w-[80%] mx-auto">
+          <Suspense
           fallback={
             <div className='flex justify-center items-center h-[calc(100vh-60px)]'>
                       <p className="text-6xl text-gray-500 font-bold animate-pulse flex items-center">
@@ -76,6 +79,7 @@ const AllApps = () => {
         >
           <AllAppComponent searchValue={searchValue} allApps={filteredApps} />
         </Suspense>
+        </div>
       )}
     </div>
   );
