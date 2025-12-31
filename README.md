@@ -30,7 +30,7 @@
 ## Installation & Running Locally
 
 1. **Clone the repository**  
-   "https://github.com/pranto-deb1/my-assignment-8.git"
+   "git clone https://github.com/pranto-deb1/my-assignment-8.git"
 
 2. **Navigate to the project directory**
    "cd my-assignment-8"
