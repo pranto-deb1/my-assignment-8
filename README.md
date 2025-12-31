@@ -33,7 +33,7 @@
    "https://github.com/pranto-deb1/my-assignment-8.git"
 
 2. **Navigate to the project directory**
-   "cd local-food-lovers"
+   "cd my-assignment-8"
 
 3. **Install dependencies**
    "npm install"
